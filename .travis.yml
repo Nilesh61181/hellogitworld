@@ -1,2 +1,6 @@
 sudo: false
 language: java
+script:
+  - which java
+  - echo "$TRAVIS_BUILD_DIR"
+  - set path =/usr/lib/jvm/java-8-oracle/bin/java
